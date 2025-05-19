@@ -1,4 +1,6 @@
 **CloudWatch**
+
+
 ![36](https://github.com/user-attachments/assets/18cae54d-cdb6-4e3c-a88d-33063b0fe994)
 ![37](https://github.com/user-attachments/assets/6dca13fa-d855-497b-ae6b-336d0a84ddfa)
 ![38](https://github.com/user-attachments/assets/7a18d368-fd6d-41b5-a4b1-9b64c8cf54d0)
@@ -13,6 +15,8 @@
 ![47](https://github.com/user-attachments/assets/d6ad7a73-9f9c-406f-aefe-4a05b67836d3)
 
 ***Create Alarm using ClousWatch service dashboard***
+
+
 ![49](https://github.com/user-attachments/assets/76b99929-0897-45bf-b7d2-c5019678780a)
 ![52](https://github.com/user-attachments/assets/41bb2fa9-510d-4aad-a12f-04e14c8b2078)
 ![54](https://github.com/user-attachments/assets/0dd20367-eb16-465d-9401-116e51f24d10)
