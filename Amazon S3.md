@@ -24,7 +24,8 @@ Amazon S3 is an object storage service that offers industry-leading scalability,
 - **S3 Storage Classes**: Standard, Intelligent-Tiering, Glacier, etc.  
 
 ## Architecture Diagram
-![Insert S3 Architecture Diagram Here](#)
+![s3](https://github.com/user-attachments/assets/76490b3f-a82e-4af0-bdf8-8a54ca9dd403)
+
 
 ## Best Practices
 - Enable versioning to protect against accidental deletion  
