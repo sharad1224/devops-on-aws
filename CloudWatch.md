@@ -1,5 +1,61 @@
-**CloudWatch**
+# AWS CloudWatch
 
+## Definition
+Amazon CloudWatch is a monitoring and observability service that provides data and actionable insights to monitor applications, respond to system-wide performance changes, and optimize resource utilization.
+
+## Key Features
+- Collect and track metrics for AWS services and custom applications  
+- Log collection and analysis (CloudWatch Logs)  
+- Alarms for sending notifications or automatically making changes  
+- Dashboards for visualization  
+- Events and rules for automation and triggering actions  
+- Integration with AWS services like EC2, Lambda, RDS, ECS, etc.
+
+## Use Cases
+- Monitoring infrastructure and application performance  
+- Setting alarms for operational thresholds  
+- Centralized log management and analysis  
+- Triggering automated responses to events  
+- Creating custom dashboards for real-time insights  
+
+## Key Components / Concepts
+- **Metrics**: Time-ordered set of data points (e.g., CPU utilization)  
+- **Logs**: Application/system logs collected and stored  
+- **Alarms**: Watches a single metric over a time period and performs actions  
+- **Dashboards**: Customizable views of metrics and alarms  
+- **Events**: React to changes in your environment (e.g., EC2 state changes)  
+- **Insights**: Analyze logs with queries (e.g., CloudWatch Logs Insights)
+
+## Architecture Diagram
+![Insert CloudWatch Architecture Diagram Here](#)
+
+## Best Practices
+- Use high-resolution metrics for real-time monitoring  
+- Aggregate logs from multiple sources using agents  
+- Set up alarms for thresholds and automation  
+- Enable detailed monitoring for EC2 instances  
+- Use metric filters to extract specific log data
+
+## Pricing Model
+- Pay per metric, dashboard, log ingestion, and log storage  
+- Charges for custom metrics and high-resolution data  
+- Pricing varies based on region and usage tier  
+
+## Exam Tips
+- Know the difference between standard and detailed monitoring  
+- Understand the components: metrics, logs, alarms, events, dashboards  
+- Be familiar with CloudWatch integration with other AWS services  
+- Use cases for custom metrics and CloudWatch Logs Insights  
+
+## Quick Recap
+- CloudWatch is a key AWS service for monitoring and observability  
+- Use it to collect, visualize, and act on metrics and logs  
+- Combine alarms and events to automate responses  
+- Visualize performance with dashboards  
+
+
+
+## Create Alarm using Instance dashboard
 
 ![36](https://github.com/user-attachments/assets/18cae54d-cdb6-4e3c-a88d-33063b0fe994)
 ![37](https://github.com/user-attachments/assets/6dca13fa-d855-497b-ae6b-336d0a84ddfa)
@@ -14,7 +70,8 @@
 ![46](https://github.com/user-attachments/assets/498abaf6-d208-4a71-9d7f-bb5b06616819)
 ![47](https://github.com/user-attachments/assets/d6ad7a73-9f9c-406f-aefe-4a05b67836d3)
 
-***Create Alarm using ClousWatch service dashboard***
+
+## Create Alarm using ClousWatch service dashboard
 
 
 ![49](https://github.com/user-attachments/assets/76b99929-0897-45bf-b7d2-c5019678780a)
