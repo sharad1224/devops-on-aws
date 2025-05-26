@@ -91,6 +91,23 @@ Amazon S3 is an object storage service that offers industry-leading scalability,
 
 ## Bucket Versioning
 
+***1. Creating the Bucket with Versioning Disabled***
+
+
+***2. Uploading the First Version of the File***
+
+
+***3. Re-uploading and Overwriting the File without Versioning***
+
+
+***4. Enabling Bucket Versioning***
+
+
+***5. Adding Additional Versions***
+
+
+***6. Suspending Bucket Versioning***
+
 
 
 
