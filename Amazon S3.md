@@ -93,20 +93,66 @@ Amazon S3 is an object storage service that offers industry-leading scalability,
 
 ***1. Creating the Bucket with Versioning Disabled***
 
+![149](https://github.com/user-attachments/assets/f5dda1dd-e3ae-49ad-94b7-2269e975945b)
+
+
 
 ***2. Uploading the First Version of the File***
+
+![150](https://github.com/user-attachments/assets/fe57f99e-ba17-4e0a-b8d6-4846543bcfe2)
+
 
 
 ***3. Re-uploading and Overwriting the File without Versioning***
 
+![151](https://github.com/user-attachments/assets/e9fd28b3-11bf-438e-82f1-b5f2c9da67c2)
+![152](https://github.com/user-attachments/assets/b4ef8d76-e51f-45c6-8209-f2d0463f3fc8)
+
+
 
 ***4. Enabling Bucket Versioning***
+
+![153](https://github.com/user-attachments/assets/01a36c3f-5fc8-4d9d-ae97-344b13d72dea)
+![154](https://github.com/user-attachments/assets/fbc6c541-916a-4ce9-9426-27e623020ab0)
+
 
 
 ***5. Adding Additional Versions***
 
+![155](https://github.com/user-attachments/assets/54ab359b-f195-4ba5-b921-86e0daed3dab)
+![156](https://github.com/user-attachments/assets/11070d74-2917-4f27-92e9-0d8280f3f56c)
 
-***6. Suspending Bucket Versioning***
+**update version**
+![157](https://github.com/user-attachments/assets/89a19c1c-256f-4d9c-aba3-ecc40122eed4)
+![158](https://github.com/user-attachments/assets/29366cf3-c17d-4ff8-9e2c-4bae6abbca4e)
+
+
+***6. If delete latest version file***
+
+![159](https://github.com/user-attachments/assets/5486fc62-5117-4e99-8f98-126c1d59f732)
+![160](https://github.com/user-attachments/assets/56d1082e-34c8-4d9d-8efc-c2389c508b8d)
+![161](https://github.com/user-attachments/assets/46360eca-a7b5-4fee-8eb2-11f86d22149b)
+
+
+***7. Recover deleted file***
+
+![162](https://github.com/user-attachments/assets/ab32f551-99d3-4ecc-b1cc-91da7059a976)
+![163](https://github.com/user-attachments/assets/23be6c9b-161a-43d7-98d8-e852fe82e542)
+![164](https://github.com/user-attachments/assets/f00ed184-f20b-4730-80f1-3366d63b7207)
+
+
+***8. Now delete a latest version***
+
+![165](https://github.com/user-attachments/assets/096ce8c3-fb94-449f-a731-7484c1111870)
+![166](https://github.com/user-attachments/assets/6de05227-c023-4098-af53-3b1f6696c15d)
+![167](https://github.com/user-attachments/assets/6c4c8a7f-db38-4638-a7c6-52255a87bad2)
+
+
+
+***9. Suspending Bucket Versioning***
+
+![168](https://github.com/user-attachments/assets/7e0a262c-bf55-4b9b-b6ba-3ae64d200b38)
+
 
 
 
