@@ -79,5 +79,15 @@ Amazon S3 is an object storage service that offers industry-leading scalability,
 ![133](https://github.com/user-attachments/assets/0a6c98f1-7b24-44c3-b230-dc2fcc751b32)
 
 
+## Show error page if website url wrong
+
+![136](https://github.com/user-attachments/assets/52b7ddf6-33ee-4707-a1eb-f91ad2ae1e4c)
+![137](https://github.com/user-attachments/assets/281ad8c0-ffbc-4db4-8e28-7b9b6a720920)
+![138](https://github.com/user-attachments/assets/d9d4f21c-b86b-4a11-b5f3-8ae254fa723e)
+![139](https://github.com/user-attachments/assets/4f85ecad-540d-4c3e-b11e-1d959d488499)
+![141](https://github.com/user-attachments/assets/00d1b9ed-501f-4dbd-95a3-988eac57f1f1)
+
+
+
 
 
