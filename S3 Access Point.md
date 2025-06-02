@@ -175,7 +175,7 @@
 ***Go to Direct Bucket option***
 ![203](https://github.com/user-attachments/assets/721045a1-fb77-43c7-a7b9-a55702848286)
 
-***Trying to upload object but access denied**
+***Trying to upload object but access denied***
 ![204](https://github.com/user-attachments/assets/306479bf-6280-44ff-9530-4df0decf3bf4)
 
 
