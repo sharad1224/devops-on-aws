@@ -8,11 +8,59 @@
 
 ![175](https://github.com/user-attachments/assets/0cce8497-d9ac-4d0e-82c4-b7bf58822c92)
 
+# S3 Bucket Policy
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "*"
+      },
+      "Action": "s3:*",
+      "Resource": [
+        "arn:aws:s3:::demo-s3-1674",
+        "arn:aws:s3:::demo-s3-1674/*"
+      ],
+      "Condition": {
+        "StringEquals": {
+          "s3:DataAccessPointAccount": "020102663352"
+        }
+      }
+    }
+  ]
+}
+
+
 ![177](https://github.com/user-attachments/assets/fc5a2bd5-e736-4b82-986e-defe861fd45d)
 
 ![178](https://github.com/user-attachments/assets/1e2af030-467f-400b-bfb0-3c31205a18aa)
 
 ![179](https://github.com/user-attachments/assets/1d173422-2874-497b-a3a8-d0214569210e)
+
+# AWS IAM User Policy
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "VisualEditor0",
+      "Effect": "Allow",
+      "Action": [
+        "s3:GetAccessPoint",
+        "s3:ListAllMyBuckets",
+        "s3:ListAccessPoints",
+        "s3:ListBucketVersions",
+        "s3:ListBucket"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+
 
 ![180](https://github.com/user-attachments/assets/38eecb60-3859-49ed-8d9a-972f7228da70)
 
@@ -23,6 +71,27 @@
 ![185](https://github.com/user-attachments/assets/29430002-8358-41f4-96c0-5469c5464ffd)
 
 ![187](https://github.com/user-attachments/assets/2aebd14a-e3e1-487e-94f9-7ae06b81549a)
+
+# S3 Access Point Policy
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::020102663352:user/Zara"
+      },
+      "Action": [
+        "s3:GetObject",
+        "s3:PutObject"
+      ],
+      "Resource": "arn:aws:s3:us-east-1:020102663352:accesspoint/zara-access-point/object/chinki/*"
+    }
+  ]
+}
+
 
 ![188](https://github.com/user-attachments/assets/6d4c9863-69e5-4dd4-855a-a9027f127641)
 
