@@ -1,6 +1,6 @@
 # CloudFront
 
-***Creat Bucket***
+***Create Bucket***
 ![205](https://github.com/user-attachments/assets/9d8752e5-84c8-4d95-895b-127cb772b633)
 ![206](https://github.com/user-attachments/assets/4ef95569-bb8e-4dc6-9bb7-7a0c5a86fb39)
 ![207](https://github.com/user-attachments/assets/94e49aa4-8ca3-4e0b-8a3a-1b5f1f2097ff)
