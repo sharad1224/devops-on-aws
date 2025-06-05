@@ -6,7 +6,7 @@
 ***Host a Static Website***
 ![244](https://github.com/user-attachments/assets/95a73788-0480-415e-a170-2e3cb03f854e)
 
-## Use this user data script or run manullay command**
+## Use this user data script or run manullay command
 
 ```bash
 #!/bin/bash
