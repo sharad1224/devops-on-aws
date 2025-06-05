@@ -26,7 +26,7 @@ sudo systemctl restart httpd
 ```bash
 #!/bin/bash
 sudo yum install httpd -y
-sudo echo "<h1> Welcome to AWS : Mumbai - server " >> /var/www/html/index.html
+sudo echo "<h1> Welcome to AWS : US(Ohio) - server " >> /var/www/html/index.html
 sudo systemctl enable --now httpd
 sudo systemctl restart httpd
 ```
