@@ -6,11 +6,30 @@
 ***Host a Static Website***
 ![244](https://github.com/user-attachments/assets/95a73788-0480-415e-a170-2e3cb03f854e)
 
+## Use this user data script or run manullay command**
+
+```bash
+#!/bin/bash
+sudo yum install httpd -y
+sudo echo "<h1> Welcome to AWS : Mumbai - server " >> /var/www/html/index.html
+sudo systemctl enable --now httpd
+sudo systemctl restart httpd
+```
 ***Launch another EC2 in Different Region Like US***
 ![245](https://github.com/user-attachments/assets/81eb4964-12e7-4427-9c95-b6fbfb2c2269)
 
 ***again Host a Static Website***
 ![246](https://github.com/user-attachments/assets/d347342f-283d-4c54-ba6c-7477e3f0286e)
+
+## Use this user data script or run manullay command**
+
+```bash
+#!/bin/bash
+sudo yum install httpd -y
+sudo echo "<h1> Welcome to AWS : Mumbai - server " >> /var/www/html/index.html
+sudo systemctl enable --now httpd
+sudo systemctl restart httpd
+```
 
 ***Go to Global Accelerator sevice***
 ![247](https://github.com/user-attachments/assets/3eec0b55-dd0f-4b58-be7f-3f2987eb4b19)
