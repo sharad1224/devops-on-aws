@@ -21,7 +21,7 @@ sudo systemctl restart httpd
 ***again Host a Static Website***
 ![246](https://github.com/user-attachments/assets/d347342f-283d-4c54-ba6c-7477e3f0286e)
 
-## Use this user data script or run manullay command**
+## Use this user data script or run manullay command
 
 ```bash
 #!/bin/bash
