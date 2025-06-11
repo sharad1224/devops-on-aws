@@ -26,6 +26,22 @@
 ***Type a Code and Deploy, after create a event test the code & See the Output***
 ![274](https://github.com/user-attachments/assets/5f08ea6a-4f19-4c30-82b4-fd1244c2d8c0)
 
+**code**
+```
+import json
+import boto3
+
+def lambda_handler(event, context):
+
+    print("Sharad Patel : Lambda Testing")
+
+    # TODO implement    
+    return {
+        'statusCode': 200,
+        'body': json.dumps('Hello from Lambda!')
+    }
+```
+
 ***Add S3 Trigeer***
 ![275](https://github.com/user-attachments/assets/82f8d9da-e67e-4fef-b6ae-3492136a14b8)
 ![276](https://github.com/user-attachments/assets/aa7872b1-b480-4d96-8a00-f70be7fd95c3)
@@ -34,6 +50,23 @@
 
 ***Type a Code For S3 object Trigger & Deploy***
 ![280](https://github.com/user-attachments/assets/f2b2d321-37af-43bc-be3c-e8254d8141d5)
+
+**code**
+```
+import json
+import boto3
+
+def lambda_handler(event, context):
+    s3 = boto3.client("s3")
+    print(event)
+    print("Sharad Patel : Lambda Testing for S3 Trigger ")
+
+    # TODO implement    
+    return {
+        'statusCode': 200,
+        'body': json.dumps('Hello from Lambda!')
+    }
+```
 
 ****Upload one object in Bucket & Go CloudWatch Logs***
 ![281](https://github.com/user-attachments/assets/4509aacf-3aec-4ca7-89ca-b112da80ab34)
