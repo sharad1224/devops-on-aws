@@ -116,5 +116,5 @@ def lambda_handler(event, context):
  ***clear the logs & upload the .txt object***
 ![286](https://github.com/user-attachments/assets/20c8d038-4986-4fe8-b95a-a0a3084e6ebf)
 
-***see the text data own object in logs**
+***see the text data own object in logs***
 ![287](https://github.com/user-attachments/assets/ced21e89-b6a0-4169-8aa9-86554b7f0d53)
