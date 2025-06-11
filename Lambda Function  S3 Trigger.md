@@ -44,8 +44,44 @@
 ***See The Logs for uploaded object***
 ![283](https://github.com/user-attachments/assets/a397c9ff-de64-4932-bfe1-c173441c797b)
 
- #
 
- # Happy Birthday Bhagirath
+## Print the text data in logs to my .txt object
 
- 
+***edit the code***
+![285](https://github.com/user-attachments/assets/ffe59626-f528-4f61-aae7-20070879024a)
+
+**Code**
+```
+import json
+import boto3
+
+def lambda_handler(event, context):
+    s3 = boto3.client("s3")
+    print(event)
+
+    if event:
+        file_obj = event['Records'][0]
+        bucket_name = str(file_obj['s3']['bucket']['name'])
+        filename = str(file_obj['s3']['object']['key'])
+        
+        print('Filename: ' + filename)
+
+        file_object = s3.get_object(Bucket=bucket_name, Key=filename)
+        file_content = file_object['Body'].read().decode('utf-8')
+
+        print(file_content)
+
+        print("sharadpatelwdn@gmail.com")
+
+    # TODO implement    
+    return {
+        'statusCode': 200,
+        'body': json.dumps('Hello from Lambda!')
+    }
+```
+
+ ***clear the logs & upload the .txt object***
+![286](https://github.com/user-attachments/assets/20c8d038-4986-4fe8-b95a-a0a3084e6ebf)
+
+***see the text data own object in logs**
+![287](https://github.com/user-attachments/assets/ced21e89-b6a0-4169-8aa9-86554b7f0d53)
