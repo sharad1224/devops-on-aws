@@ -14,6 +14,22 @@
 ***Install required packages in a directory in linux terminal and upload zip file***
 ![301](https://github.com/user-attachments/assets/0bda72e0-fac0-43a1-8219-7439ef209313)
 
+## Execute these command
+```
+mkdir -p lambda-layer/python/lib/python3.12/site-packages
+```
+```
+ pip install requests numpy -t lambda-layer/python/lib/python3.12/site-packages
+```
+```
+cd lambda-layer/
+```
+```
+ zip -r python.zip python/
+```
+```
+ls
+```
 ***Add Layer***
 ![302](https://github.com/user-attachments/assets/78f4488e-e08a-4ae3-92d3-66e682410a2d)
 
