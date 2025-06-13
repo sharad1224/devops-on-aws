@@ -24,6 +24,79 @@
 ***Write a python code for image compression and deploy then create event for test*** 
 ![319](https://github.com/user-attachments/assets/6ff74af6-06dc-48b7-940d-063e3bc6f42e)
 
+## Lambda Function Code
+**Here's the complete Lambda function code:**
+
+```
+python
+import boto3
+import os
+from PIL import Image
+import io
+import urllib.parse
+
+# Initialize the S3 client
+s3 = boto3.client('s3')
+
+# Get environment variables for output prefix and compression quality
+output_prefix = os.environ.get('OUTPUT_PREFIX', 'output/')
+quality = int(os.environ.get('QUALITY', 75))  # Compression quality (0-100)
+
+def lambda_handler(event, context):
+    # Process each file upload event individually
+    for record in event['Records']:
+        # Extract bucket name and object key (file path)
+        bucket = record['s3']['bucket']['name']
+        key = urllib.parse.unquote_plus(record['s3']['object']['key'])
+
+        # Only process supported image types
+        if not key.lower().endswith(('.jpg', '.jpeg', '.png')):
+            print(f"Incorrect image format: {key}")
+            return {
+                'statusCode': 400,
+                'body': 'Incorrect image format'
+            }
+
+        try:
+            # Download the image file from S3
+            response = s3.get_object(Bucket=bucket, Key=key)
+            image_data = response['Body'].read()
+
+            # Open the image using Pillow
+            img = Image.open(io.BytesIO(image_data))
+
+            # Prepare an in-memory buffer to hold the compressed image
+            compressed_io = io.BytesIO()
+
+            # Save the image to buffer with compression (JPEG format)
+            img.save(compressed_io, format='JPEG', optimize=True, quality=quality)
+            compressed_io.seek(0)  # Reset buffer pointer to the beginning
+
+            # Build the output file key (path), changing folder and file name
+            output_key = key.replace("input/", output_prefix, 1).rsplit('.', 1)[0] + "_compressed.jpg"
+
+            # Upload the compressed image back to S3 in the output/ directory
+            s3.put_object(
+                Bucket=bucket,
+                Key=output_key,
+                Body=compressed_io,
+                ContentType='image/jpeg'
+            )
+
+            print(f"Compressed image saved to: {output_key}")
+            return {
+                'statusCode': 200,
+                'body': f'Successfully compressed and saved to {output_key}'
+            }
+
+        except Exception as e:
+            print(f"Error processing image {key}: {str(e)}")
+            return {
+                'statusCode': 500,
+                'body': f'Error processing image: {str(e)}'
+            }
+```
+
 ***Go to Confifuration Section and encrease Timeout***
 ![320](https://github.com/user-attachments/assets/fde383b7-7266-4036-9508-290122f3fd3d)
 ![321](https://github.com/user-attachments/assets/508ca45f-ab9f-4b19-98fa-be77e3f833d9)
