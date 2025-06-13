@@ -11,6 +11,7 @@ mkdir -p lambda-layer/python/lib/python3.12/site-packages
 ```
 pip install requests numpy -t lambda-layer/python/lib/python3.12/site-packages
 ```
+```
 cd lambda-layer/
 ```
 ```
