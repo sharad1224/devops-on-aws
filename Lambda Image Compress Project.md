@@ -4,6 +4,22 @@
 ![307](https://github.com/user-attachments/assets/51773a28-83f9-43fb-a268-f297e423df29)
 ![308](https://github.com/user-attachments/assets/5ec10ca1-3785-4a08-8be2-e921d1aefedc)
 
+## Execute these commands:
+```
+mkdir -p lambda-layer/python/lib/python3.12/site-packages
+```
+```
+pip install requests numpy -t lambda-layer/python/lib/python3.12/site-packages
+```
+cd lambda-layer/
+```
+```
+zip -r python.zip python/
+```
+```
+ls
+```
+
 ***Create a Bucket***
 ![309](https://github.com/user-attachments/assets/2a995598-81bf-41b4-95f9-08a555c615c2)
 
@@ -28,7 +44,6 @@
 **Here's the complete Lambda function code:**
 
 ```
-python
 import boto3
 import os
 from PIL import Image
