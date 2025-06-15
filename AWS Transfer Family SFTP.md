@@ -9,6 +9,27 @@
 ***Also add a Buckcet Policy***
 ![338](https://github.com/user-attachments/assets/7d54ef82-4f60-426e-a034-6042188c0c4e)
 
+## JSON Code
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+    {
+        "Sid": "Statement1",
+        "Effect": "Allow",
+        "Principal": "*",
+        "Action": [
+            "s3:GetObject",
+            "s3:PutObject",
+            "s3:ListBucket"
+        ],
+        "Resource": ["arn: aws:53 ::: test-transfer-data-sftp",
+                    "arn:aws:s3 ::: test-transfer-data-sftp/*"]
+        }
+    ]
+}
+```
+
 ***Go to AWS Transfer Family service and create server***
 ![339](https://github.com/user-attachments/assets/74b21f62-b024-4a43-b6c3-40bffaff1af1)
 ![340](https://github.com/user-attachments/assets/75068153-b15d-41d7-8363-bb8e639a9009)
