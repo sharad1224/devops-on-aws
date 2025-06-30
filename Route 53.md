@@ -29,7 +29,7 @@
 ***Copy Record Name & paste in Browser Tab***
 ![373](https://github.com/user-attachments/assets/3122901c-46cd-446e-aebe-d9250270dec5)
 
-***Create Record using Alias for Load Balancer then Copy Record Name & paste Browser Tab***
+***Create Record using Alias for Load Balancer then Copy the Record Name & paste Browser Tab***
 ![374](https://github.com/user-attachments/assets/f0eb9340-b57e-45ea-b795-19101853fe6f)
 
 ---
