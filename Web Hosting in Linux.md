@@ -5,4 +5,16 @@
 <img width="1913" height="910" alt="432" src="https://github.com/user-attachments/assets/9fabf330-eafc-4110-8f7e-892ad16b0e53" />
 <img width="1920" height="917" alt="433" src="https://github.com/user-attachments/assets/4939001d-ce18-4f87-83ec-d6ee77c203c3" />
 <img width="1920" height="920" alt="434" src="https://github.com/user-attachments/assets/e87e81a1-03fb-4be7-8a67-492b73033e6d" />
+
+```
+#!/bin/bash
+sudo yum update
+sudo yum install httpd -y
+sudo yum install git -y
+sudo git clone https://github.com/sharad1224/one-page-website-html-css-project.git
+sudo cp -r one-page-website-html-css-project/* /var/www/html/
+sudo systemctl enable --now httpd
+sudo systemctl restart httpd
+```
+
 <img width="1920" height="919" alt="435" src="https://github.com/user-attachments/assets/144a0138-5c72-47a3-b872-3c832e7b163a" />
