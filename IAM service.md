@@ -23,7 +23,7 @@
 <img width="1915" height="916" alt="447" src="https://github.com/user-attachments/assets/397ae0dc-e4da-485a-b510-845f343ac8d4" />
 ***attach policiy***
 <img width="1920" height="917" alt="448" src="https://github.com/user-attachments/assets/d4be204a-1c16-4fa2-94c6-a60f16dd29b9" />
-***select group because user is under the group**
+***select group because user is under the group***
 <img width="1920" height="918" alt="449" src="https://github.com/user-attachments/assets/1ca941d3-699d-4553-ac0e-60081af95af1" />
 
 ***Launch ec2 for check user access***
