@@ -91,7 +91,7 @@
 ***manage user credintial***
 <img width="1920" height="907" alt="419" src="https://github.com/user-attachments/assets/67151a29-3cb0-440f-9635-5c72f14090c6" />
 
-# Password Policiy
+**Password Policiy**
 
 <img width="1920" height="913" alt="420" src="https://github.com/user-attachments/assets/8145b9f8-2b23-4096-bdf9-2dc5bb00c92a" />
 ***Default IAM password policy***
