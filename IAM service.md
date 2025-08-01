@@ -95,6 +95,7 @@
 
 <img width="1920" height="913" alt="420" src="https://github.com/user-attachments/assets/8145b9f8-2b23-4096-bdf9-2dc5bb00c92a" />
 ***Default IAM password policy***
+
 <img width="1920" height="918" alt="422" src="https://github.com/user-attachments/assets/f2be73cc-000c-47e8-9974-7f565c9f0f30" />
 ***custom password policy***
 <img width="1918" height="913" alt="423" src="https://github.com/user-attachments/assets/b86fe9f9-1430-4f52-8b31-9456ea6aea03" />
