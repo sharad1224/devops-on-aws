@@ -32,7 +32,7 @@
 <img width="1920" height="912" alt="406" src="https://github.com/user-attachments/assets/644a6ed3-fde4-4549-8ffc-54fea1f42abd" />
 
 
-# EC2 Launch : Windows Server
+# EC2 Launch : Windows Server (RDP Client)
 
 
 <img width="1920" height="919" alt="408" src="https://github.com/user-attachments/assets/f6eb3a3d-0401-4a84-8358-f78d038cde39" />
