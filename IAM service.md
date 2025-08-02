@@ -86,7 +86,7 @@
 ***create Role***
 <img width="1920" height="915" alt="428" src="https://github.com/user-attachments/assets/6b4c02a7-f41d-420c-839c-63086b372a4a" />
 
-***for EC2**
+***for EC2***
 <img width="1918" height="918" alt="429" src="https://github.com/user-attachments/assets/59e2e8e6-111f-4da0-862d-e39e52b716f1" />
 <img width="1920" height="912" alt="430" src="https://github.com/user-attachments/assets/baf0bb93-2c76-49b7-a417-5d90e8f59936" />
 <img width="1920" height="914" alt="431" src="https://github.com/user-attachments/assets/ba1206d2-cc27-46b5-8625-b77aff090527" />
