@@ -34,6 +34,7 @@
 <img width="1920" height="918" alt="449-1" src="https://github.com/user-attachments/assets/9fc8cfd1-106a-4f37-950f-8dbeb882ca86" />
 
 **user : Ram**
+
 ***use downloded csv file***
 <img width="1916" height="1074" alt="450" src="https://github.com/user-attachments/assets/5da259cc-7760-4727-bedd-4867cceb37cd" />
 
@@ -47,6 +48,7 @@
 <img width="1920" height="874" alt="459" src="https://github.com/user-attachments/assets/cd3f5cee-1a18-4180-a76c-bf527aed9825" />
 
 **user : Root**
+
 ***Refresh***
 <img width="1920" height="915" alt="461" src="https://github.com/user-attachments/assets/ff78e842-6183-4c29-acce-1410b90c976e" />
 
@@ -57,10 +59,12 @@
 <img width="1916" height="917" alt="463" src="https://github.com/user-attachments/assets/b02dc3b0-f3f1-4f67-864f-d6fe1fbf88ea" />
 
 **user : Ram**
+
 ***permission error, we not list any instance***
 <img width="1918" height="868" alt="464" src="https://github.com/user-attachments/assets/4cd745f1-09a2-4ab8-9268-97ec3ae023a8" />
 
 **user : Root**
+
 ***Create Inline Policy***
 <img width="1920" height="917" alt="465" src="https://github.com/user-attachments/assets/533a650a-c9aa-444b-9af7-2526ab4f3de3" />
 <img width="1616" height="772" alt="467" src="https://github.com/user-attachments/assets/cde2d24c-9d31-4291-b143-af06c48a81f5" />
@@ -75,10 +79,11 @@
 <img width="1920" height="916" alt="472" src="https://github.com/user-attachments/assets/120599ea-6389-4ab1-9b6b-8f4e34f12f92" />
 
 **user : Ram**
+
 ***Now we can list and create ec2 instance***
 <img width="1919" height="867" alt="473" src="https://github.com/user-attachments/assets/b8dd73b9-7582-4092-828b-651d426187f6" />
 
-***but wecan not create S3 bucket because no S3 permission only ec2***
+***but we can not create S3 bucket because no S3 permission only given is ec2***
 <img width="1919" height="876" alt="474" src="https://github.com/user-attachments/assets/f2259abc-9f93-494e-865e-b785f65d9f5d" />
 
 # IAM Service : Role
